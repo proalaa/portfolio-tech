@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="73" viewBox="0 0 75 73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(43,165,255,0.68);
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <ellipse id="Ellipse_16" data-name="Ellipse 16" class="cls-1" cx="37.5" cy="36.5" rx="37.5" ry="36.5"/>
+</svg>

@@ -6,11 +6,74 @@ $seconadary-color : #2ba5ff;
 body
 {
     background-color: $primary-color;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
 // General style
 
 // Header style
+
+.circle-group{
+    
+   position: absolute;
+   
+   right: 0;
+    
+    img
+    {
+        position: absolute;
+        
+    
+        &:nth-child(1)
+        {
+            top: -50px;
+            right: -10px;
+        }
+        &:nth-child(2)
+        {
+            top: 30px;
+            right: -20px;
+        }
+        &:nth-child(3)
+        {
+            top: 10px;
+            right: 100px;
+        }
+        &:nth-child(4)
+        {
+            width: 100px;
+            height: 100px;
+            top: 100px;
+            right: 110px;
+        }
+        &:nth-child(5)
+        {
+            width: 70px;
+            height: 70px;
+            top: 75px;
+            right: 180px;
+        }
+        &:nth-child(6)
+        {
+            width: 70px;
+            height: 70px;
+            top: 120px;
+            right: 190px;
+        }
+       
+    }
+
+}
+.reverse-circle-group
+{
+    @extend .circle-group;
+    transform:scale(-1) ; 
+    left: 0 !important;
+    bottom:0 !important;
+    
+}
 
 // Header style
 
